@@ -1,0 +1,228 @@
+ /* #3f72af */
+ /* #112d4e */
+ /* #dbe2ef */
+ /* #f9f7f7 */
+
+ .main-header {
+    background-image: url('../images/top-image.jpg');
+    height: 600px;
+ }
+
+ .overlay {
+    position: absolute;
+    width: 100%;
+    height: inherit; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.6);
+    padding: 0px;
+    z-index: 2; 
+ }
+
+.brand {
+    font-family: Righteous;
+    color: yellow;
+}
+
+.navbar-brand:hover {
+    text-decoration: none;
+}
+
+.header-nav {
+    position: fixed;
+    width: 100%;
+    background-color: #112d4e;
+    height: 60px;
+    z-index: 100;
+}
+
+.header-nav .nav-links {
+    color: #f9f7f7;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.header-nav .nav-links:hover {
+    color: #dbe2ef;
+    text-decoration: underline;
+}
+
+.header-nav:visited {
+    color: #f9f7f7;
+}
+
+.header-nav .collapse {
+    background-color: #112d4e;
+    width: 100%;
+}
+
+.header-nav .collapse .nav-links {
+    padding: 10px;
+}
+
+.header-nav .collapse .nav-links:hover {
+    background-color: #112d4e;
+}
+
+.header-bg {
+    background-color: #112d4e;
+}
+
+.top-content {
+    position: relative;
+    font-family: Raleway;
+    color: white;
+    z-index: 3;
+    padding-top: 80px;
+}
+
+.top-brand-text {
+    font-family: Righteous, serif;
+    text-transform: uppercase;
+}
+
+
+.top-order-form {
+    background-color: rgba(0,0,0,0.5);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.top-order-form .from {
+}
+
+.my-button {
+    background-color: #3f72af;
+    color:#dbe2ef;
+    border: #3f72af;
+    border-radius: 5px;
+    height: 45px;
+    margin: 25px 15px 15px 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.my-button:hover {
+    background-color: #112d4e;
+    font-weight: bold;
+}
+
+.my-button a {
+    color:#f9f7f7;
+    text-decoration: none;
+}
+
+.my-button a:hover {
+    color:#f9f7f7;
+    text-decoration: none;
+}
+
+.top-order-form .from {
+    margin-top: 15px;
+}
+
+.top-order-form .form-label {
+    margin-top: 15px;
+}
+
+.top-content-list li{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    /* font-size: 1.1rem; */
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 10px;
+    color:#dbe2ef;
+}
+
+.achievements-section {
+    background-color: #dbe2ef;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+
+.achievements-section img{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    margin: auto;
+}
+
+.achievements-section .img-description-primary {
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: #112d4e;
+}
+
+.achievements-section .img-description-secondary {
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.custom-background-first {
+    background-color: #f9f7f7;
+}
+
+.custom-background-secondary {
+    background-color: #dbe2ef;
+}
+
+.content-section {
+    font-family: 'Raleway';
+    padding: 20px;
+}
+
+.content-section .section-image {
+
+    border-radius: 5px;
+    box-shadow: #112d4e 5px 5px 10px;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.content-section .content-section-head-text {
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.content-section .content-brand-text{
+    font-family: 'Righteous';
+    font-weight: 600;
+}
+
+.content-section .content-section-text {
+    margin: auto;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.content-section .content-section-list {
+    font-weight: bold;
+}
+
+.content-section .content-section-list li {
+    font-weight: normal;
+    margin-left: 30px;
+}
+
+.form-section label {
+    padding: 15px 10px 0px 0px;
+}
+
+.form-section textarea {
+    height: 200px;
+}
+
+.footer-section {
+    background-color: #112d4e;
+    height: 100px;
+    color: #dbe2ef;
+}

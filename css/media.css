@@ -1,0 +1,13 @@
+@media (max-width : 770px) {
+    .header-bg {
+        background: none;
+    }
+
+    .overlay {
+        background: none;
+    }
+
+    body {
+        background: #dbe2ef;
+    }
+}
